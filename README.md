@@ -1,0 +1,1 @@
+This repository contains the code files and some relevant topics' notes in markdown files.

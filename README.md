@@ -34,7 +34,7 @@ The tutorials in the playlist cover essential JSP and Servlet concepts, explaine
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/AnuprashGautam/Servlet-And-JSP-By-Learncode-With-Durgesh.git
+   git clone https://github.com/AnuprashGautam/Servlet-And-JSP-By-Learn-Code-With-Durgesh.git
    ```
 2. Explore the folders to find code examples and notes.
 3. Run the code snippets using an IDE like IntelliJ IDEA or Eclipse with a configured Apache Tomcat server.

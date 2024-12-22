@@ -37,6 +37,7 @@ public class RegisterServlet extends HttpServlet {
 
 
                 // Now I am forwarding the request to other servlet: SuccessServlet.
+                // Note:- In this case the below lines of code will be executed and this is why we won't see the above lines of code.
 
                 RequestDispatcher rd = getServletContext().getRequestDispatcher("/success");
                 rd.forward(request, response);

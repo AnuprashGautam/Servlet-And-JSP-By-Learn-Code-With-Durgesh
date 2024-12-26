@@ -15,7 +15,7 @@ public class Servlet2 extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        // Getting cookie
+        // Getting cookies
 
         boolean flag = false;
         String name="";
@@ -23,7 +23,7 @@ public class Servlet2 extends HttpServlet {
         Cookie cookies[] = request.getCookies();
 
         if(cookies == null) {
-            out.println("<h1> You are the new user. Go to home page and submit your name.");
+            out.println("<h1> You are the new user. Go to home page and submit your name.</h1>");
             return;
         }
         else{

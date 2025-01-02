@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib uri="/WEB-INF/tlds/mylib" prefix="t"%> 
+<%@taglib uri="/WEB-INF/tlds/mylib.tld" prefix="t"%> 
 
 <!DOCTYPE html>
 <html>

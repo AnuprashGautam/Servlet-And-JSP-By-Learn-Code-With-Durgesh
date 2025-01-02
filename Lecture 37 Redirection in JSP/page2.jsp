@@ -13,7 +13,16 @@
     </head>
     <body style="background: grey;">
         <h1>This is page two.</h1>
-        <!--<a href="page3.jsp">Go to page 3</a>             <!--  Redirecting to the inside page.-->
-        <a href="https://www.google.com">Go to page 3</a>     <!-- Redirecting to the outside webpage instead to page3. -->
+       
+        <% 
+            out.println("Please wait...");
+            
+            // Redirecting to the inside page.
+//            response.sendRedirect("page3.jsp");
+        
+            // Redirecting to the outside page.
+            response.sendRedirect("https://www.google.com");
+        
+        %>
     </body>
 </html>

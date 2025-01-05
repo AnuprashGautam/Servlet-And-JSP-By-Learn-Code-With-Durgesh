@@ -31,10 +31,14 @@
         <h1>The uper case of name string is :<c:out value="${fn:toUpperCase(name)}"></c:out></h1>
         
         <hr>
-        <!--3. trim function-->
+        <!--4. trim function-->
         
         <h1>The trimming name string :<c:out value="${fn:trim(name)}"></c:out></h1>
         
+        <hr>
+        <!--5. contains function-->
+        
+        <h1>Does name string contains "Gautam" :<c:out value="${fn:contains(name,'Gautam')}"></c:out></h1>
         
     </body>
 </html>
